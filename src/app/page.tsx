@@ -1,5 +1,5 @@
 import { headers } from 'next/headers';
-import AddCompanyButton from './components/add-company-button';
+import AddCompanyButton from '../components/add-company-button';
 
 export default async function Home() {
   const h = await headers();
