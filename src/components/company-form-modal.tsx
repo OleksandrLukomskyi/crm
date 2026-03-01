@@ -1,3 +1,4 @@
+'use client';
 import React from 'react';
 import CompanyForm, { CompanyFormProps } from '@/src/components/company-form';
 import Modal, { ModalProps } from '@/src/components/modal';

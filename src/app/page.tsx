@@ -6,7 +6,7 @@ export default async function Home() {
   console.log(Object.fromEntries(h.entries()));
   return (
     <main>
-      <h1 className="text-xl">Home page {new Date().toTimeString()}</h1>
+      <h1 className="text-xl">Home page </h1>
 
       <AddCompanyButton />
     </main>
