@@ -18,7 +18,7 @@ export default function Modal({ show, children, onClose }: ModalProps) {
     <Transition as={Fragment} show={show}>
       <Dialog
         as="div"
-        className="fixed inset-0 z-50 flex items-center"
+        className="fixed inset-0 z-50 flex items-center justify-center"
         onClose={onClose}
       >
         <TransitionChild
