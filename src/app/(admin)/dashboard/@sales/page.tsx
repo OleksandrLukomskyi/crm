@@ -1,9 +1,9 @@
 import React from 'react';
-import { getSummarySales } from '@/lib/api';
-import SummaryTable from '@/app/components/summary-table';
-import SummaryTableHeader from '@/app/components/summary-table-header';
-import SummaryTableCell from '@/app/components/summary-table-cell';
-import DashboardCard from '@/app/components/dashboard-card';
+import { getSummarySales } from '@/src/lib/api';
+import SummaryTable from '@/src/components/summary-table';
+import SummaryTableHeader from '@/src/components/summary-table-header';
+import SummaryTableCell from '@/src/components/summary-table-cell';
+import DashboardCard from '@/src/components/dashboard-card';
 
 export interface PageProps {}
 

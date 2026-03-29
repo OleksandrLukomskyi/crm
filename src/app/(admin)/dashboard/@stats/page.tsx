@@ -1,6 +1,6 @@
 import React from 'react';
-import { getSummaryStats } from '@/lib/api';
-import StatCard, { StatCardType } from '@/app/components/stat-card';
+import { getSummaryStats } from '@/src/lib/api';
+import StatCard, { StatCardType } from '@/src/components/stat-card';
 
 export interface PageProps {}
 
