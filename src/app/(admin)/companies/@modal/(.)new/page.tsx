@@ -2,8 +2,8 @@
 
 import React from 'react';
 import { useRouter } from 'next/navigation';
-import CompanyForm from '@/app/components/company-form';
-import Modal from '@/app/components/modal';
+import CompanyForm from '@/src/components/company-form';
+import Modal from '@/src/components/modal';
 
 export interface PageProps {}
 

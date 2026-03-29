@@ -1,7 +1,7 @@
 'use client';
 
 import React from 'react';
-import CompanyForm from '@/app/components/company-form';
+import CompanyForm from '@/src/components/company-form';
 
 export interface PageProps {}
 
