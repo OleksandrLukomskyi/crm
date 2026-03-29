@@ -2,7 +2,7 @@
 
 import React from 'react';
 import Button from '@/src/components/button';
-import { useRouter } from 'next/router';
+import { useRouter } from 'next/navigation';
 
 export default function AddCompanyButton() {
   const router = useRouter();
