@@ -1,7 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
 import clsx from 'clsx';
-// import { getSummaryCountries } from '@/src/lib/api';
 import DashboardCard from '@/src/components/dashboard-card';
 import { getCountries } from '@/src/lib/api';
 import getCountById from '@/src/lib/utils/getCountById';
@@ -9,7 +8,6 @@ import getCountById from '@/src/lib/utils/getCountById';
 export interface PageProps {}
 
 export default async function Page({}: PageProps) {
-  // const data = await getSummaryCountries();
   const countries = await getCountries();
   const companies = await getCompanies();
 
