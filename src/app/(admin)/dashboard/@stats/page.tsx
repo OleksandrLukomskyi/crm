@@ -1,5 +1,5 @@
 import React from 'react';
-import { getSummaryStats } from '@/src/lib/api';
+import { getSummaryStats, SummaryStats } from '@/src/lib/api';
 import StatCard, { StatCardType } from '@/src/components/stat-card';
 
 export interface PageProps {}

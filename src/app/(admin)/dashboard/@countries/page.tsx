@@ -2,7 +2,7 @@ import React from 'react';
 import Image from 'next/image';
 import clsx from 'clsx';
 import DashboardCard from '@/src/components/dashboard-card';
-import { getCountries } from '@/src/lib/api';
+import { getCompanies, getCountries } from '@/src/lib/api';
 import getCountById from '@/src/lib/utils/getCountById';
 
 export interface PageProps {}
